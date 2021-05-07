@@ -1,0 +1,45 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(
+  108deg,
+  #bf8d58 0%,
+  #e4a96a 100%
+ );
+}
+  
+.App {
+
+    min-height: 500px;
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 60 px;
+    z-index: 1;
+    position: static;
+    text-align: center;
+    padding: 20px;
+}
+  
+.card {
+    width: 80%;
+    height: 80%;
+    background: #333;
+    color: #fff;
+    font-size: 30px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
